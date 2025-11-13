@@ -19,7 +19,7 @@
 
     <div id="mensaje-feedback" class="mensaje" style="display: none;"></div>
 
-    <form id="form-crear-producto">
+    <form id="form-crear-producto" class="card">
         <div class="form-group">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
