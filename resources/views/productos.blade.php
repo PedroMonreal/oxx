@@ -17,7 +17,7 @@
     <nav style="margin-bottom: 20px; padding: 10px; background-color: #eee; border-radius: 5px;">
         <a href="{{ url('/') }}" style="margin-right: 15px; text-decoration: none; font-weight: bold; color: #333;">Ver Inventario</a>
         <a href="{{ url('/crear') }}" style="margin-right: 15px; text-decoration: none; color: #007bff;">Agregar Producto</a>
-        <a href="{{ url('/admin') }}" style="margin-right: 15px; text-decoration: none; color: #28a745;">Administrar (CRUD)</a>
+        <a href="{{ url('/admin') }}" style="margin-right: 15px; text-decoration: none; color: #28a745;">Administrar</a>
     </nav>
 
     <div id="productos-lista">
@@ -25,7 +25,7 @@
     </div>
 
     <script>
-        // 1. Define la URL de tu API
+        // 1. Define la URL de la API
         const API_URL = "{{ url('/api/productos') }}"; 
         const productosLista = document.getElementById('productos-lista');
 
